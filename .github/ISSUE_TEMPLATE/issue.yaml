@@ -115,9 +115,9 @@ body:
       required: false
 
   - type: textarea
-    id: lttng_trace_logs
+    id: lttng_trace_log_file
     attributes:
-      label: LTTng trace logs
+      label: LTTng trace file
       description: If applicable, add LTTng trace log file stored in '~/.ros/tracing/'
     validations:
       required: false
