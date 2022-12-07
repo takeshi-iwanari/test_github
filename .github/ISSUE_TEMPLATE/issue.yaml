@@ -2,13 +2,12 @@ name: Issue
 description: Report a bug/issue
 labels: [bug]
 body:
-
   - type: checkboxes
     attributes:
       label: Checklist
       description: Confirm the following items before proceeding.
       options:
-        - label: I've read the [contribution guidelines](https://github.com/tier4/caret/blob/main/CONTRIBUTING.md).
+        - label: I've read the [contribution guidelines](https://github.com/tier4/caret/blob/main/.github/CONTRIBUTING.md).
           required: true
         - label: I've searched other issues and no duplicate issues were found.
           required: true
@@ -56,11 +55,11 @@ body:
           - **CPU**: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz x 12
           - **Memory**: 32.0 GiB
       placeholder: |
-          - OS:
-          - Kernel version:
-          - ROS 2:
-          - CPU:
-          - Memory:
+        - OS:
+        - Kernel version:
+        - ROS 2:
+        - CPU:
+        - Memory:
     validations:
       required: true
 
@@ -112,6 +111,14 @@ body:
       label: Logs
       description: Copy and paste any relevant log output.
       render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: lttng_trace_logs
+    attributes:
+      label: LTTng trace logs
+      description: If applicable, add LTTng trace log file stored in '~/.ros/tracing/'
     validations:
       required: false
 
