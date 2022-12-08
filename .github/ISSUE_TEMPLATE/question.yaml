@@ -2,13 +2,12 @@ name: Question
 description: Ask a general question
 labels: [question]
 body:
-
   - type: checkboxes
     attributes:
       label: Checklist
       description: Confirm the following items before proceeding.
       options:
-        - label: I've read the [contribution guidelines](https://github.com/tier4/caret/blob/main/CONTRIBUTING.md).
+        - label: I've read the [contribution guidelines](https://github.com/tier4/caret/blob/main/.github/CONTRIBUTING.md).
           required: true
         - label: I've searched other issues and no duplicate issues were found.
           required: true
