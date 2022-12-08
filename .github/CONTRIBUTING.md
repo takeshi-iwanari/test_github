@@ -10,7 +10,7 @@ To get an overview of the project, read the [CARET document](https://tier4.githu
 
 ### Create a new issue
 
-When you create a new issue, [search if an issue already exists](https://github.com/tier4/caret/issues?q=is%3Aissue) and [search FAQ in the document for known issues/solutions](https://tier4.github.io/CARET_doc/main/faq/).
+When you create a new issue, [search FAQ in the document for known issues/solutions](https://tier4.github.io/CARET_doc/main/faq/).
 
 CARET consists of multi repositories and this repository is a meta repository. A new issue should be created in [this meta repository](https://github.com/tier4/caret), unless the issue is explicitly related to a certain repository.
 
